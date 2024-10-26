@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  h1 {
+    background: linear-gradient(to right, #4CAF50, #8BC34A);
+    text-align: center;
+    padding: 40px;
+    color: white;
+    margin: 0;
+  }
+  
+  /* Font Styling */
+  .intro-text {
+    font-size: 1.2em;
+    color: #555;
+    font-style: italic;
+    margin: 20px;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* CSS3 Selectors Example */
+  .highlight-row:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  /* List Styling */
+  ul, ol {
+    width: 60%;
+    margin: 20px auto;
+  }
+  
+  ul li, ol li {
+    padding: 5px 0;
+  }
+  
+  /* Background Color and Hover Effect for List Items */
+  ul li:hover {
+    background-color: #8BC34A;
+    color: white;
+  }
+  
+  ol li:hover {
+    background-color: #FF9800;
+    color: white;
+  }
+  
